@@ -1,6 +1,11 @@
 import * as C from './styles';
 
-export const Character = () => {
+type Props = {
+    x: number;
+    y: number;
+}
+
+export const Character = ({ x, y }: Props) => {
     return (
         <C.Container>
             ...
